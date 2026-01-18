@@ -4101,7 +4101,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.767
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4214,7 +4214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProceduralSFX
   gameManager: {fileID: 835914551}
   sampleRate: 44100
-  master: 0.7
+  master: 0.702
 --- !u!1 &2051256862
 GameObject:
   m_ObjectHideFlags: 0

@@ -202,7 +202,7 @@ public class CompassGameManager : MonoBehaviour
         if (spinner) spinner.isSpinning = true;
         state = State.Spinning;
 
-        // ターゲットを動かしたいならここでランダム化（任意）
+        // ターゲットを動かしたいならここでランダム化
         // SetRandomTarget();
 
         UpdateJudgeUI();
@@ -248,7 +248,7 @@ public class CompassGameManager : MonoBehaviour
         }
     }
 
-    // 任意：ターゲットを毎回ランダムにしたい場合
+    // ターゲットを毎回ランダムにしたい場合
     // void SetRandomTarget()
     // {
     //     if (!targetMark) return;
